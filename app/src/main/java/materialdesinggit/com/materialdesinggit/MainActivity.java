@@ -2,7 +2,10 @@ package materialdesinggit.com.materialdesinggit;
 
 import android.animation.Animator;
 import android.app.Activity;
+import android.app.ActivityOptions;
+import android.content.Intent;
 import android.os.Bundle;
+import android.transition.Explode;
 import android.view.View;
 import android.view.ViewAnimationUtils;
 import android.view.Window;
@@ -19,9 +22,9 @@ public class MainActivity extends Activity {
 
     // Simple Transition Animation Between the Activities
     public void onClick(View view){
-//        getWindow().setExitTransition(new Explode());
-//        Intent intent = new Intent(this , Activity2.class);
-//        startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle());
+        getWindow().setSharedElementExitTransition(new Explode());
+        Intent intent = new Intent(this , Activity2.class);
+        startActivity(intent, ActivityOptions.makeSceneTransitionAnimation(this).toBundle());
         startViewAnimation();
     }
 
