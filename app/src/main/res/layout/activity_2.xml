@@ -17,6 +17,15 @@
         card_view:cardCornerRadius="10dp"
         card_view:cardBackgroundColor="#58ff28">
 
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/heart"/>
+
     </android.support.v7.widget.CardView>
 
 
