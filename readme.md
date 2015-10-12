@@ -12,3 +12,5 @@ Using the MATERIAL THEME (On Branch MaterialTuto)
 2. CardView Using Rect Drawable with elevation
 3. Vector Drawable
 4. Reveal Effect Animation
+5. Ripple Drawable and Effects
+
